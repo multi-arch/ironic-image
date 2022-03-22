@@ -13,7 +13,7 @@ mkdir -p /shared/html/images
 mkdir -p /shared/html/pxelinux.cfg
 
 # Copy files to shared mount
-cp /tftpboot/undionly.kpxe /tftpboot/ipxe.efi /tftpboot/snponly.efi /shared/tftpboot
+cp /tftpboot/undionly.kpxe /tftpboot/snponly.efi /shared/tftpboot
 cp /tftpboot/arm64-efi/snponly.efi /shared/tftpboot/arm64-efi
 
 # Template and write dnsmasq.conf
